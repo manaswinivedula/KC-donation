@@ -1,0 +1,46 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+}
+
+.navbar {
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  transition: .5s;
+}
+
+#MainDiv {
+  background-image: url("../../assets/img/4303020/10.png");
+  background-repeat: no-repeat;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 50px;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+}
+#Gallary {
+  overflow: auto;
+  white-space: nowrap;
+}
+.row li {
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+
+
+
+
